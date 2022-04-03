@@ -14,6 +14,6 @@ PCs.  Some links are just placeholders until more projects are deployed.
 
 
 You can find this project at 
-https://yippeejimmee.github.io/Portfolio/
+https://yippeejimmee.github.io/EntryPortfolio/
 
-![alt text](./127.0.0.1_5501_Portfolio.html.png)
+![alt text](./images/127.0.0.1_5501_Portfolio.html.png)
