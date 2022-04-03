@@ -13,4 +13,7 @@ is responsive to the different webpage sizes for phones, ipads, and
 PCs.  Some links are just placeholders until more projects are deployed.  
 
 
-![alt text](./)
+You can find this project at 
+https://yippeejimmee.github.io/Portfolio/
+
+![alt text](./127.0.0.1_5501_Portfolio.html.png)
