@@ -15,6 +15,7 @@ main {
     align-items: flex-start;
 }
 
+/* Creates black bar across top of page */
 #bar {
     width: 95%;
     margin-left: auto;
@@ -86,6 +87,7 @@ footer {
     margin-top: 20px;
 }
 
+/* Groups up the elements in the about me section */
 #aboutDivide {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -94,7 +96,7 @@ footer {
     font-size: 2rem;
 }
 
-
+/* sizing of large image */
 #mainImage {
     max-width: 590px;
     background-color: aquamarine;
@@ -102,6 +104,7 @@ footer {
     
 }
 
+/* Sizing of smaller images */
 .smallImage {
     width: 290px;
     height: 250px;
@@ -109,6 +112,7 @@ footer {
     opacity: .8;
 }
 
+/* manage the spacing and layout of pictures */
 #pictures {
     display: flex;
     flex-wrap: wrap;
@@ -159,11 +163,13 @@ footer {
     margin: 10px;
 }
 
+/* groups up elements in the work section */
 .WorkDivide {
     display: flex;
     align-items: flex-start;
 }
 
+/* adds borders around the images */
 .borders {
     margin: 5px;
     border: 2px solid var(--tealaround);
@@ -206,6 +212,7 @@ a {
     color: black;
 }
 
+/* formatting of elements and layout when screen is below 992px */
 @media screen and (max-width: 992px) {
     .cropimage {
         width: 40rem;
@@ -271,6 +278,7 @@ a {
     }
 }
 
+/* formatting of elements and layout when screen is below 768px */
 @media screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;

@@ -1,17 +1,16 @@
-# Initialized-Code-Refractor
-Applying html css skills
+Greetings!
 
-Greetings! Thank you for taking the time to come and check out my first Code Refractory.
+Thank you for taking the time to check out my Portfolio.
 
-In this project, most of the code was already working except for one of the navigation links.  However, there was alot of redundency within the CSS code, which were condensed for a easier visibility.  Most of the elements in the code were non-semantic.  These were changed to semantic elements to give meaning to the way in which they were categorized.  The navigation link was corrected to allow the first item in nav to correctly navigate to the correct element.  
+This project houses the culmination of the projects and learnings that
+I have developed thus far!  It required alot of tinkering and messing 
+around to get it to where it is, though it is far from being perfect, 
+it is a step in the right direction.
 
-I hope that you'll find the new improved code to your satisfaction.  I toiled away day and night to get the code cleaned spic and span for you!
-Take a look around, kick back your feet and enjoy your stay.
-
-Thank you to the wonderful team at UCSD bootcamp Mon and Wed at 6:30pm and Sat 10:00am for making this all possible.
-
-You can find this project at
-https://yippeejimmee.github.io/Initialized-Code-Refractor/#search-engine-optimization
+This project has multiple links with corresponding navigation to both
+within the web page and to external pages.  The web page layout should 
+is responsive to the different webpage sizes for phones, ipads, and 
+PCs.  Some links are just placeholders until more projects are deployed.  
 
 
-![alt text](./assets/images/_C__Users_jimmy_OneDrive_Desktop_Code_Initialized-Code-Refractor_index.html.png)
+![alt text](./)
