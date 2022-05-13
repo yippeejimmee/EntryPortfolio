@@ -1,299 +1,296 @@
 :root {
-    --tealaround: rgb(200, 255, 237);
+  --tealaround: rgb(200, 255, 237);
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: monospace;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* Creates black bar across top of page */
 #bar {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 40px;
-    border-radius: 10px;
-    background-color: blue;
-    background-image: url(https://wallpapercave.com/wp/vueGjUL.jpg);
-    box-shadow: 3px 3px 2px black;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 40px;
+  border-radius: 10px;
+  background-color: blue;
+  background-image: url(https://wallpapercave.com/wp/vueGjUL.jpg);
+  box-shadow: 3px 3px 2px black;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-
+  background-color: rgb(255, 255, 255);
 }
 header {
-    display: inline-block;
-    padding: 10px 0px 0px 50px;
-    width: 100%;
+  display: inline-block;
+  padding: 10px 0px 0px 50px;
+  width: 100%;
 }
 
 header img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    float: left;
-    margin: 10px;
-    box-shadow: 3px 3px 2px rgb(0, 0, 0);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  float: left;
+  margin: 10px;
+  box-shadow: 3px 3px 2px rgb(0, 0, 0);
 }
 
 header h1 {
-    font-size: 70px;
-    color: rgb(0, 44, 40);
-    display: inline-block;
-    margin: 0px;
+  font-size: 70px;
+  color: rgb(0, 44, 40);
+  display: inline-block;
+  margin: 0px;
 }
 
 header p {
-    font-size: 25px;
-    display: inline-block;
-    color: rgb(0, 44, 40);
-    margin-left: 5px;
+  font-size: 25px;
+  display: inline-block;
+  color: rgb(0, 44, 40);
+  margin-left: 5px;
 }
 
 #training {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 nav {
-    padding-top: 0px;
-    margin-right: 20px;
-    float: right;
+  padding-top: 0px;
+  margin-right: 20px;
+  float: right;
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 nav ul li {
-    padding: 30px;
-    list-style: none;
-    font-size: 25px;
+  padding: 30px;
+  list-style: none;
+  font-size: 25px;
 }
 
 footer {
-    display: flex;
-    width: 100%;
-    margin-top: 20px;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
 }
 
 /* Groups up the elements in the about me section */
 #aboutDivide {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
 }
 
 /* sizing of large image */
 #mainImage {
-    max-width: 590px;
-    background-color: aquamarine;
-    opacity: .8;
-    
+  max-width: 590px;
+  background-color: aquamarine;
+  opacity: 0.8;
 }
 
 /* Sizing of smaller images */
 .smallImage {
-    width: 290px;
-    height: 250px;
-    background-color: aquamarine;
-    opacity: .8;
+  width: 290px;
+  height: 250px;
+  background-color: aquamarine;
+  opacity: 0.8;
 }
 
 /* manage the spacing and layout of pictures */
 #pictures {
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px;
-    float: right;
-    justify-content: left;
-    margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  float: right;
+  justify-content: left;
+  margin-left: 50px;
 }
 
 #aboutDivide p {
-    color: black;
-    float: right;
-    width: 60%;
-    margin-left: 50px;
-
+  color: black;
+  float: right;
+  width: 60%;
+  margin-left: 50px;
 }
 
 #Aboutheadings {
-    padding: 0px 0px 30px;
-    font-size: 40px;
-    display: inline-block;
-    width: 300px;
-    text-align: end;
-    border-right: 5px solid black;
-    padding-right: 10px;
-    margin: 10px;
+  padding: 0px 0px 30px;
+  font-size: 40px;
+  display: inline-block;
+  width: 300px;
+  text-align: end;
+  border-right: 5px solid black;
+  padding-right: 10px;
+  margin: 10px;
 }
 
 #footerheadings {
-    padding: 0px 0px 30px;
-    font-size: 40px;
-    display: inline-block;
-    width: 300px;
-    text-align: end;
-    border-right: 5px solid black;
-    padding-right: 10px;
-    margin: 10px;
+  padding: 0px 0px 30px;
+  font-size: 40px;
+  display: inline-block;
+  width: 300px;
+  text-align: end;
+  border-right: 5px solid black;
+  padding-right: 10px;
+  margin: 10px;
 }
 
 #Workheadings {
-    padding: 0px 0px 850px;
-    font-size: 40px;
-    display: inline-block;
-    width: 300px;
-    text-align: end;
-    border-right: 5px solid black;
-    padding-right: 10px;
-    margin: 10px;
+  padding: 0px 0px 850px;
+  font-size: 40px;
+  display: inline-block;
+  width: 300px;
+  text-align: end;
+  border-right: 5px solid black;
+  padding-right: 10px;
+  margin: 10px;
 }
 
 /* groups up elements in the work section */
 .WorkDivide {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 /* adds borders around the images */
 .borders {
-    margin: 5px;
-    border: 2px solid var(--tealaround);
+  margin: 5px;
+  border: 2px solid var(--tealaround);
 }
 
 footer ul {
-    float: right;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 footer ul li {
-    margin: 50px;
-    font-size: 20px;
-    list-style: none;
-    justify-self: flex-start;
+  margin: 50px;
+  font-size: 20px;
+  list-style: none;
+  justify-self: flex-start;
 }
 
 .container {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .bottom-left {
-    position: absolute;
-    bottom: 40px;
-    left: 5px;
-    font-size: 20px;
-    background-color: var(--tealaround);
-    padding: 15px;
-}
- 
-img:hover,  #mainImage:hover {
-    opacity: 1;
+  position: absolute;
+  bottom: 40px;
+  left: 5px;
+  font-size: 20px;
+  background-color: var(--tealaround);
+  padding: 15px;
 }
 
+img:hover,
+#mainImage:hover {
+  opacity: 1;
+}
 
 a {
-    color: black;
+  color: black;
 }
 
 /* formatting of elements and layout when screen is below 992px */
 @media screen and (max-width: 992px) {
-    .cropimage {
-        width: 40rem;
-        height: 20rem;
-    }
+  .cropimage {
+    width: 40rem;
+    height: 20rem;
+  }
 
-    #WorkDivide {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+  #WorkDivide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
-    }
+  main {
+    align-items: center;
+  }
 
-    main {
-        align-items: center;
-    }
+  #Aboutheadings.cropheading {
+    align-items: center;
+    border-bottom: 5px solid black;
+    padding: 0rem;
+    text-align: center;
+    width: 80%;
+    border-right: none;
+  }
 
-    #Aboutheadings.cropheading {
-        align-items: center;
-        border-bottom: 5px solid black;
-        padding: 0rem;
-        text-align: center;
-        width: 80%;
-        border-right: none;
-    }
+  #Workheadings.cropheading {
+    align-items: center;
+    border-bottom: 5px solid black;
+    padding: 0rem;
+    text-align: center;
+    width: 80%;
+    border-right: none;
+  }
+  #footerheadings.cropheading {
+    align-items: center;
+    border-bottom: 5px solid black;
+    padding: 0rem;
+    text-align: center;
+    width: 80%;
+    border-right: none;
+  }
 
-    #Workheadings.cropheading {
-        align-items: center;
-        border-bottom: 5px solid black;
-        padding: 0rem;
-        text-align: center;
-        width: 80%;
-        border-right: none;
-    }
-    #footerheadings.cropheading {
-        align-items: center;
-        border-bottom: 5px solid black;
-        padding: 0rem;
-        text-align: center;
-        width: 80%;
-        border-right: none;
-    }
+  #aboutDivide {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #aboutDivide {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
-    footer ul {
-        flex-direction: column
-    }
+  footer ul {
+    flex-direction: column;
+  }
 
-    footer ul li {
-        margin: 30px;
-    }
+  footer ul li {
+    margin: 30px;
+  }
 }
 
 /* formatting of elements and layout when screen is below 768px */
 @media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
+  nav ul {
+    flex-direction: column;
+  }
 
-    nav {
-        float: none;
-    }
+  nav {
+    float: none;
+  }
 
-    header {
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        padding: none;
-    }
-
+  header {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: none;
+  }
 }
-    
