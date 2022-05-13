@@ -13,6 +13,6 @@ is responsive to the different webpage sizes for phones, ipads, and
 PCs. Some links are just placeholders until more projects are deployed.
 
 You can find this project at
-https://yippeejimmee.github.io/EntryPortfolio/
+https://yippeejimmee.github.io/Portfolio/
 
 ![alt text](./assets/images/screenshot.png)
