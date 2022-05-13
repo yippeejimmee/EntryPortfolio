@@ -3,17 +3,16 @@ Greetings!
 Thank you for taking the time to check out my Portfolio.
 
 This project houses the culmination of the projects and learnings that
-I have developed thus far!  It required alot of tinkering and messing 
-around to get it to where it is, though it is far from being perfect, 
+I have developed thus far! It required alot of tinkering and messing
+around to get it to where it is, though it is far from being perfect,
 it is a step in the right direction.
 
 This project has multiple links with corresponding navigation to both
-within the web page and to external pages.  The web page layout should 
-is responsive to the different webpage sizes for phones, ipads, and 
-PCs.  Some links are just placeholders until more projects are deployed.  
+within the web page and to external pages. The web page layout should
+is responsive to the different webpage sizes for phones, ipads, and
+PCs. Some links are just placeholders until more projects are deployed.
 
-
-You can find this project at 
+You can find this project at
 https://yippeejimmee.github.io/EntryPortfolio/
 
-![alt text](./assets/images/127.0.0.1_5501_Portfolio.html.png)
+![alt text](./assets/images/screenshot.png)
